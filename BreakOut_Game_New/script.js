@@ -237,6 +237,4 @@ function getRandomColor() {
     return color
 }
 const startButton = document.getElementById('start-btn')
-console.log(startButton);
-
 startButton.addEventListener('click', startGame)
